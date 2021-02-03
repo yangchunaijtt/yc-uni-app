@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/video/index",
+    "pages/videoPlay/index",
+    "pages/imgCategory/index",
+    "pages/album/index",
+    "pages/imgDetail/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "懂你找图",
+    "navigationBarBackgroundColor": "#000"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d4237a",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "./static/icon/_home.png",
+        "selectedIconPath": "./static/icon/home.png"
+      },
+      {
+        "pagePath": "pages/video/index",
+        "text": "精美视频",
+        "iconPath": "./static/icon/_videocamera.png",
+        "selectedIconPath": "./static/icon/videocamera.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap92.json"
+}
